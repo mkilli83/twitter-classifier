@@ -10,11 +10,13 @@ import GetOldTweets3 as got
 import pandas as pd
 from tabulate import tabulate
 
-from sample.utils import Timer, load_csv, paths
+from src.utils import Timer, load_csv, paths
 
 pd.set_option("display.max_columns", 100)
 
-print("here world")
+def validation_of_ci():
+    return None
+
 
 def get_raw_tweets(query_dict):
     """
