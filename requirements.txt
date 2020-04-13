@@ -1,0 +1,15 @@
+nose
+sphinx
+gensim
+lightgbm
+matplotlib
+nltk
+numpy
+pandas
+regex
+scikit-learn
+seaborn
+tensorflow
+tensorflow-hub
+tweet-preprocessor
+GetOldTweets3
