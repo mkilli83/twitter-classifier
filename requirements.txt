@@ -13,3 +13,4 @@ tensorflow
 tensorflow-hub
 tweet-preprocessor
 GetOldTweets3
+tabulate

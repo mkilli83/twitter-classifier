@@ -1,1 +1,1 @@
-from .core import get_raw_tweets
+from .core import validation_of_ci
