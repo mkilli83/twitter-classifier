@@ -69,7 +69,7 @@ def create_preprocessing_functions(pre_processing_options):
         if v:
             use_preprocessing_funcs.append(pre_processing_funcs[k])
 
-    patch = lambda s: re.sub(r'(“|”|’)', '', s)
+    # patch = lambda s: re.sub(r'(“|”|’)', '', s)
     use_preprocessing_funcs.append(patch)
 
     #Function that takes in tweet and iterates through preprocessing functions
