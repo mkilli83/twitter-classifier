@@ -12,7 +12,6 @@ from sklearn.utils.multiclass import unique_labels
 
 plt.style.use("ggplot")
 
-
 def load_csv(file_name, list_type_colname=None, **kwargs):
     df = pd.read_csv(file_name, **kwargs)
     if list_type_colname is not None:
@@ -56,4 +55,3 @@ def get_paths(create_dir=True):
     return file_paths
 
 paths = get_paths()
-print("test")
